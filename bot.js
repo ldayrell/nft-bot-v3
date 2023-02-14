@@ -1191,7 +1191,7 @@ function watchPricingStream() {
 					// Track that we're triggering this order
 					triggeredOrders.set(triggeredOrderTrackingInfoIdentifier, triggeredOrderDetails);
 
-					appLogger.info(`🤞 Trying to trigger ${triggeredOrderTrackingInfoIdentifier} order with NFT ${availableNft.id}...`);
+					appLogger.info(`🤞 Trying to trigger ${triggeredOrderTrackingInfoIdentifier} order with NFT ${availableNft.id}... posicao dai  ${posDai}`);
 
 					try {
 						const orderTransaction = createTransaction({
